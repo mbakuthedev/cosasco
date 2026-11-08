@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Device Length Calculator - Cosasco</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-root="" data-page="calc">
+<script src="js/shell.js"></script>
+
+<section class="page-hero" style="--hero: url('../assets/facility.jpg')">
+  <div class="wrap">
+    <h1>Device Length Calculator</h1>
+    <p class="lede">A planning estimate for probe insertion length.</p>
+  </div>
+</section>
+
+<section class="page">
+  <div class="wrap">
+    <p>Estimate how far a probe needs to reach from the fitting seal face to the monitoring point. This sketch uses outside diameter, wall thickness, and fitting stand-off. It is not a certified Cosasco calculation.</p>
+    <div class="calc" style="margin-top:22px">
+      <form id="calc-form">
+        <label class="field"><span>Pipe outside diameter (in)</span><input name="od" type="number" min="0" step="0.01" value="12"></label>
+        <label class="field" style="margin-top:12px"><span>Wall thickness (in)</span><input name="wall" type="number" min="0" step="0.01" value="0.5"></label>
+        <label class="field" style="margin-top:12px"><span>Fitting stand-off (in)</span><input name="stand" type="number" min="0" step="0.01" value="5.25"></label>
+        <div class="form-actions"><button class="btn solid" type="submit">Calculate</button></div>
+      </form>
+      <div class="result-box" id="calc-result"><p>Estimated insertion length</p><strong>—</strong><p>Enter the three dimensions and calculate.</p></div>
+    </div>
+  </div>
+</section>
+
+<script src="js/footer.js"></script>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

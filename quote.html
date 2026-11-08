@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Online Quote - Cosasco</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-root="" data-page="quote">
+<script src="js/shell.js"></script>
+
+<section class="page-hero" style="--hero: url('../assets/hero-home.jpg')">
+  <div class="wrap">
+    <h1>Online Quote</h1>
+    <p class="lede">Collect the devices you want priced.</p>
+  </div>
+</section>
+
+<section class="page">
+  <div class="wrap">
+    <div id="quote-success" class="success" hidden>
+      <h3>Quote request noted.</h3>
+      <p>This demo does not send the list. On the live site, Customer Service or your local representative would price it. Call +1-562-949-0123 if you need a person now.</p>
+    </div>
+    <div id="quote-body"></div>
+    <form id="quote-form" style="margin-top:28px;max-width:720px">
+      <h2>Send this list</h2>
+      <label class="field"><span>Name*</span><input required></label>
+      <label class="field" style="margin-top:12px"><span>Email*</span><input type="email" required></label>
+      <label class="field" style="margin-top:12px"><span>Company*</span><input required></label>
+      <label class="field" style="margin-top:12px"><span>Notes</span><textarea placeholder="Pressure, material, or site details"></textarea></label>
+      <div class="form-actions"><button class="btn solid" type="submit">Request quote</button></div>
+    </form>
+  </div>
+</section>
+
+<script src="js/footer.js"></script>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

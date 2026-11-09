@@ -3,9 +3,8 @@
   document.write(
     '<footer class="footer"><div class="wrap footer-grid">' +
       '<div>' +
-        '<p>11841 Smith Avenue<br>Santa Fe Springs, CA 90670 USA</p>' +
-        '<p>Toll Free +1-800-635-6898<br>Phone: +1-562-949-0123<br>Fax: +1-562-949-3065</p>' +
-        '<p>Worldwide: Los Angeles / Houston / Aberdeen / Dubai / Kuala Lumpur</p>' +
+        '<p>Office 7, Second Floor<br>Silverleaf Business Centre<br>118 Duncan Street<br>Hatfield, Pretoria, 0083<br>Gauteng, South Africa</p>' +
+        '<p>Phone: <a href="tel:+27671159524">+27 67 115 9524</a></p>' +
         '<div class="footer-brand">' +
           '<a href="https://www.halma.com/" target="_blank" rel="noreferrer"><img src="' + r + 'assets/logo-halma.svg" alt="Halma"></a>' +
           '<a href="https://www.ampp.org/" target="_blank" rel="noreferrer"><img class="ampp" src="' + r + 'assets/ampp.png" alt="Member of AMPP"></a>' +

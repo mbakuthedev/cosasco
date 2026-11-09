@@ -282,10 +282,11 @@
       var html = Object.keys(groups).map(function (regionName) {
         return '<h3 class="region-label">' + regionName + '</h3><div class="rep-list">' +
           groups[regionName].map(function (rep) {
-            return '<article class="rep-card"><div class="country">' + rep.country + '</div><h3>' + rep.name + '</h3><p>' + rep.address + '</p><p>' + rep.phone + '<br><a href="mailto:' + rep.email + '">' + rep.email + '</a></p></article>';
+            var mail = rep.email ? '<br><a href="mailto:' + rep.email + '">' + rep.email + '</a>' : '';
+            return '<article class="rep-card"><div class="country">' + rep.country + '</div><h3>' + rep.name + '</h3><p>' + rep.address + '</p><p><a href="tel:' + rep.phone.replace(/[^\d+]/g, '') + '">' + rep.phone + '</a>' + mail + '</p></article>';
           }).join("") + '</div>';
       }).join("");
-      repRoot.innerHTML = html || '<p class="empty">No representatives match that search. Email sales@cosasco.com and the team will route you.</p>';
+      repRoot.innerHTML = html || '<p class="empty">No representatives match that search. Call <a href="tel:+27671159524">+27 67 115 9524</a> and the Pretoria office will route you.</p>';
     }
     if (repSearch) repSearch.addEventListener("input", drawReps);
     if (regionSelect) regionSelect.addEventListener("change", drawReps);

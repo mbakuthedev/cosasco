@@ -180,9 +180,8 @@ write("contact.html", "Contact - Cosasco", "contact", "", """
     <div class="calc">
       <div>
         <p>Cosasco is exclusively dedicated to corrosion monitoring from beginning to end, providing the information you need to make the best possible decisions.</p>
-        <p><strong>11841 Smith Avenue</strong><br>Santa Fe Springs, CA 90670 USA</p>
-        <p>Toll Free +1-800-635-6898<br>Phone: +1-562-949-0123<br>Fax: +1-562-949-3065</p>
-        <p>Worldwide: Los Angeles / Houston / Aberdeen / Dubai / Kuala Lumpur</p>
+        <p><strong>Office 7, Second Floor</strong><br>Silverleaf Business Centre<br>118 Duncan Street<br>Hatfield, Pretoria, 0083<br>Gauteng, South Africa</p>
+        <p>Phone: <a href="tel:+27671159524">+27 67 115 9524</a></p>
         <p><a class="text-link" href="find-a-rep.html">Find a local representative →</a></p>
       </div>
       <div>
@@ -208,7 +207,7 @@ write("contact.html", "Contact - Cosasco", "contact", "", """
 write("find-a-rep.html", "Find a Rep - Cosasco", "reps", "", """
 <section class="page">
   <div class="wrap">
-    <p>Not sure who to contact? Email <a href="mailto:sales@cosasco.com">sales@cosasco.com</a>.</p>
+    <p>Not sure who to contact? Call the Pretoria office on <a href="tel:+27671159524">+27 67 115 9524</a>.</p>
     <div class="rep-tools">
       <input id="rep-search" type="search" placeholder="Search country or company">
       <select id="rep-region" aria-label="Region"></select>
@@ -292,7 +291,7 @@ write("privacy.html", "Privacy Policy - Cosasco", "privacy", "", """
     <h2>Consultation forms</h2>
     <p>The contact and consultation forms do not transmit what you type. After you submit, the page shows a confirmation and keeps the note on this device only. The phone numbers and email addresses published here are the public Cosasco contacts.</p>
     <h2>Questions</h2>
-    <p>Cosasco’s published headquarters is 11841 Smith Avenue, Santa Fe Springs, CA 90670 USA. Phone +1-562-949-0123.</p>
+    <p>The office is Office 7, Second Floor, Silverleaf Business Centre, 118 Duncan Street, Hatfield, Pretoria, 0083, Gauteng, South Africa. Phone <a href="tel:+27671159524">+27 67 115 9524</a>.</p>
   </div>
 </section>
 """, ("assets/hero-company.jpg", "Privacy Policy", "What this recreation keeps, and where it stays."))
@@ -302,7 +301,7 @@ write("quote.html", "Online Quote - Cosasco", "quote", "", """
   <div class="wrap">
     <div id="quote-success" class="success" hidden>
       <h3>Quote request noted.</h3>
-      <p>This demo does not send the list. On the live site, Customer Service or your local representative would price it. Call +1-562-949-0123 if you need a person now.</p>
+      <p>This demo does not send the list. Call <a href="tel:+27671159524">+27 67 115 9524</a> if you need the Pretoria office now.</p>
     </div>
     <div id="quote-body"></div>
     <form id="quote-form" style="margin-top:28px;max-width:720px">
@@ -321,7 +320,7 @@ write("partner.html", "Partner Payment - Cosasco", "partner", "", """
 <section class="page">
   <div class="wrap prose">
     <p>Partner invoices are handled by the regional Cosasco office that holds the account. This page does not take card payments.</p>
-    <p>For payment questions, call Customer Service at +1-800-635-6898 or +1-562-949-0123, or write through the contact form and include your account reference.</p>
+    <p>For payment questions, call the Pretoria office on <a href="tel:+27671159524">+27 67 115 9524</a>, or write through the contact form and include your account reference.</p>
     <p>Accepted cards on the Cosasco account, when card payment is offered, are Visa, Mastercard, and American Express.</p>
     <p><a class="btn solid" href="contact.html?topic=partner-payment">Contact accounts</a></p>
   </div>

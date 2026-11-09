@@ -40,6 +40,7 @@ window.PRODUCTS = [
 ];
 
 window.REPS = [
+  { region: "South Africa", country: "South Africa", name: "Pretoria", address: "Office 7, Second Floor, Silverleaf Business Centre, 118 Duncan Street, Hatfield, Pretoria, 0083, Gauteng", phone: "+27 67 115 9524", email: "" },
   { region: "North America", country: "United States", name: "Cosasco – Santa Fe Springs", address: "11841 Smith Avenue, Santa Fe Springs, CA 90670", phone: "(800) 635-6898", email: "sales@cosasco.com" },
   { region: "North America", country: "United States", name: "Cosasco – Houston", address: "1315 Rayford Park Road, Unit D", phone: "+1 (281) 219-8200", email: "sales@cosasco.com" },
   { region: "North America", country: "Canada", name: "Corrosion Service Company Limited", address: "9-280 Hillmount Road, Markham, Canada", phone: "14166302600", email: "sales@cosasco.com" },
@@ -102,4 +103,4 @@ window.PAGES = [
   { title: "Privacy Policy", href: "privacy.html", text: "How this site handles information" }
 ];
 
-window.COUNTRIES = ["United States","Canada","United Kingdom","United Arab Emirates","Saudi Arabia","Singapore","Australia","Brazil","Mexico","Germany","France","India","China","Japan","Norway","Netherlands","Italy","Spain","Qatar","Kuwait","Nigeria","South Africa","Indonesia","Malaysia","South Korea","Other"];
+window.COUNTRIES = ["South Africa","United States","Canada","United Kingdom","United Arab Emirates","Saudi Arabia","Singapore","Australia","Brazil","Mexico","Germany","France","India","China","Japan","Norway","Netherlands","Italy","Spain","Qatar","Kuwait","Nigeria","Indonesia","Malaysia","South Korea","Other"];

@@ -141,39 +141,6 @@ write("about.html", "About - Cosasco", "about", "", """
 </section>
 """, ("assets/hero-company.jpg", "About Us", "Exclusively dedicated to corrosion management for over 70 years."))
 
-write("leadership.html", "Leadership - Cosasco", "leadership", "", """
-<section class="page">
-  <div class="wrap">
-    <div class="people">
-      <article class="person"><div class="avatar">PB</div><h3>Philip Borup</h3><p>President</p></article>
-      <article class="person"><div class="avatar">DJ</div><h3>Dustin Jennings</h3><p>VP Operations</p></article>
-      <article class="person"><div class="avatar">SM</div><h3>Shriom “Om” Mourya</h3><p>VP Sales</p></article>
-      <article class="person"><div class="avatar">AS</div><h3>Anupam Sangal</h3><p>Director of Engineering</p></article>
-      <article class="person"><div class="avatar">SU</div><h3>Sabrina Uyehara</h3><p>Finance Director</p></article>
-      <article class="person"><div class="avatar">NI</div><h3>Naomi Ikeda</h3><p>HR Director</p></article>
-    </div>
-  </div>
-</section>
-""", ("assets/hero-company.jpg", "Leadership", "Meet our global leadership team"))
-
-write("careers.html", "Careers - Cosasco", "careers", "", """
-<section class="page">
-  <div class="wrap prose">
-    <p>Cosasco is on a mission to deliver confidence in corrosion management. The team is looking for people who want a fast pace and work they can stand behind.</p>
-    <h2>US benefits include</h2>
-    <ul>
-      <li>Medical</li>
-      <li>Dental</li>
-      <li>Vision</li>
-      <li>401k</li>
-      <li>Generous PTO</li>
-      <li>14 weeks paid maternity and paternity leave</li>
-    </ul>
-    <p><a class="btn solid" href="contact.html?topic=careers">Contact recruiting</a></p>
-  </div>
-</section>
-""", ("assets/hero-company.jpg", "Careers", "Passionate, hard-working people for a growing team."))
-
 write("contact.html", "Contact - Cosasco", "contact", "", """
 <section class="page">
   <div class="wrap">
@@ -181,8 +148,8 @@ write("contact.html", "Contact - Cosasco", "contact", "", """
       <div>
         <p>Cosasco is exclusively dedicated to corrosion monitoring from beginning to end, providing the information you need to make the best possible decisions.</p>
         <p><strong>Office 7, Second Floor</strong><br>Silverleaf Business Centre<br>118 Duncan Street<br>Hatfield, Pretoria, 0083<br>Gauteng, South Africa</p>
-        <p>Phone: <a href="tel:+27671159524">+27 67 115 9524</a></p>
-        <p><a class="text-link" href="find-a-rep.html">Find a local representative →</a></p>
+        <p>Phone: <a href="tel:+27120004521">+27 12 000 4521</a><br>Mobile: <a href="tel:+27820007314">+27 82 000 7314</a></p>
+        <p>Email: <a href="mailto:sales.rsa@cosasco.co.za">sales.rsa@cosasco.co.za</a></p>
       </div>
       <div>
         <div class="success" hidden>
@@ -204,36 +171,22 @@ write("contact.html", "Contact - Cosasco", "contact", "", """
 </section>
 """, ("assets/hero-home.jpg", "Contact Us", "Tell us what you need measured, and where."))
 
-write("find-a-rep.html", "Find a Rep - Cosasco", "reps", "", """
-<section class="page">
-  <div class="wrap">
-    <p>Not sure who to contact? Call the Pretoria office on <a href="tel:+27671159524">+27 67 115 9524</a>.</p>
-    <div class="rep-tools">
-      <input id="rep-search" type="search" placeholder="Search country or company">
-      <select id="rep-region" aria-label="Region"></select>
-    </div>
-    <div id="rep-list"></div>
-  </div>
-</section>
-""", ("assets/map.png", "Find a Rep", "Local representatives across the regions where Cosasco works."))
-
 write("faq.html", "FAQ - Cosasco", "faq", "", """
 <section class="page">
   <div class="wrap faq">
-    <details open><summary>What type of credit cards do you accept for payment?</summary><p>Visa, Mastercard, and American Express. For other forms of payment, contact Customer Service at +1-800-635-6898 or +1-562-949-0123.</p></details>
-    <details><summary>How can I place an order?</summary><p>Email, fax +1-562-949-3065, or phone +1-562-949-0123. You can also build a list on the <a href="quote.html">online quote</a> page.</p></details>
-    <details><summary>How can I check on the status of my order?</summary><p>Contact Customer Service, toll free in the US at +1-800-635-6898 or +1-562-949-0123.</p></details>
-    <details><summary>To whom should I send my quote request?</summary><p>Send quote requests to Customer Service, by fax at +1-562-949-3065, or to your <a href="find-a-rep.html">local representative</a>.</p></details>
-    <details><summary>How can I find a sales representative in my area?</summary><p>Use the <a href="find-a-rep.html">representative locator</a>.</p></details>
-    <details><summary>I could not find a particular probe or instrument. Who can help?</summary><p>Your local representative can talk through product options that are not listed in the catalog.</p></details>
+    <details open><summary>What type of credit cards do you accept for payment?</summary><p>Visa, Mastercard, and American Express. For other forms of payment, contact the Pretoria office at <a href="tel:+27120004521">+27 12 000 4521</a> or <a href="mailto:sales.rsa@cosasco.co.za">sales.rsa@cosasco.co.za</a>.</p></details>
+    <details><summary>How can I place an order?</summary><p>Email <a href="mailto:sales.rsa@cosasco.co.za">sales.rsa@cosasco.co.za</a> or call <a href="tel:+27120004521">+27 12 000 4521</a> / <a href="tel:+27820007314">+27 82 000 7314</a>. You can also use the <a href="contact.html">contact form</a>.</p></details>
+    <details><summary>How can I check on the status of my order?</summary><p>Contact the Pretoria office at <a href="tel:+27120004521">+27 12 000 4521</a> or <a href="mailto:sales.rsa@cosasco.co.za">sales.rsa@cosasco.co.za</a>.</p></details>
+    <details><summary>To whom should I send my quote request?</summary><p>Send quote requests to <a href="mailto:sales.rsa@cosasco.co.za">sales.rsa@cosasco.co.za</a> or use the <a href="contact.html">contact page</a>.</p></details>
+    <details><summary>I could not find a particular probe or instrument. Who can help?</summary><p>Contact the Pretoria office and the team can talk through product options that are not listed in the catalog.</p></details>
     <details><summary>Do I have to uninstall the previous version of software before I install the new version?</summary><p>Yes.</p></details>
-    <details><summary>How can I set up an account?</summary><p>Contact Customer Service.</p></details>
-    <details><summary>How can I get a product manual?</summary><p>Manuals are requested from the <a href="library.html">technical library</a>. On the full Cosasco site they also sit on individual product pages.</p></details>
+    <details><summary>How can I set up an account?</summary><p>Contact the Pretoria office at <a href="mailto:sales.rsa@cosasco.co.za">sales.rsa@cosasco.co.za</a>.</p></details>
+    <details><summary>How can I get a product manual?</summary><p>Manuals are requested from the <a href="library.html">technical library</a>.</p></details>
     <details><summary>What is the latest version of the Microcor Tools Software?</summary><p>The latest published version of Microcor Tools Software is 4.4.3.</p></details>
     <details><summary>What is the latest version of the CRM Software?</summary><p>The latest published version of the CRM Software is 6.06.005.</p></details>
-    <details><summary>How can I get an RMA number?</summary><p>Contact Technical Support at <a href="mailto:RMA@cosasco.com">RMA@cosasco.com</a> or call +1-800-635-6898 or +1-562-949-0123.</p></details>
-    <details><summary>Is local support available?</summary><p>Yes. Representatives are located worldwide. <a href="find-a-rep.html">Find your local representative</a>.</p></details>
-    <details><summary>How can I get help configuring an instrument?</summary><p>Contact Technical Support at <a href="mailto:support@cosasco.com">support@cosasco.com</a> or call +1-800-635-6898 or +1-562-949-0123.</p></details>
+    <details><summary>How can I get an RMA number?</summary><p>Contact the Pretoria office at <a href="mailto:sales.rsa@cosasco.co.za">sales.rsa@cosasco.co.za</a> or call <a href="tel:+27120004521">+27 12 000 4521</a>.</p></details>
+    <details><summary>Is local support available?</summary><p>Yes. Reach the South Africa office in Pretoria via the <a href="contact.html">contact page</a>.</p></details>
+    <details><summary>How can I get help configuring an instrument?</summary><p>Contact the Pretoria office at <a href="mailto:sales.rsa@cosasco.co.za">sales.rsa@cosasco.co.za</a> or call <a href="tel:+27120004521">+27 12 000 4521</a> / <a href="tel:+27820007314">+27 82 000 7314</a>.</p></details>
   </div>
 </section>
 """, ("assets/hero-company.jpg", "FAQ", "Answers to frequently asked questions"))
@@ -269,7 +222,7 @@ write("blog-safeguard.html", "SafeGuard Service Valve - Cosasco", "article", "",
 write("library.html", "Technical Library - Cosasco", "library", "", """
 <section class="page">
   <div class="wrap">
-    <p>Product manuals and data sheets are issued by Cosasco for specific devices. Request the document you need and a representative can send the current file.</p>
+    <p>Product manuals and data sheets are issued by Cosasco for specific devices. Request the document you need and the Pretoria office can send the current file.</p>
     <div class="lib-grid" style="margin-top:22px">
       <article class="lib-card"><h3>Access Fittings</h3><p>Installation and maintenance literature for Models 50 through 58 and severe-service assemblies.</p><a class="text-link" href="contact.html?topic=access-fitting-manuals">Request documents →</a></article>
       <article class="lib-card"><h3>ER &amp; Microcor Probes</h3><p>Probe selection, wiring, and retrieval notes for electrical-resistance monitoring.</p><a class="text-link" href="contact.html?topic=er-probe-manuals">Request documents →</a></article>
@@ -285,48 +238,26 @@ write("library.html", "Technical Library - Cosasco", "library", "", """
 write("privacy.html", "Privacy Policy - Cosasco", "privacy", "", """
 <section class="page">
   <div class="wrap prose">
-    <p>This local recreation of the Cosasco public website stores two kinds of information, and only in your browser.</p>
-    <h2>Quote list</h2>
-    <p>Products you add to a quote are saved in local storage on this computer. Nothing is sent to a server. Clearing the list, or clearing site data in the browser, removes it.</p>
+    <p>This website stores consultation form notes in your browser only.</p>
     <h2>Consultation forms</h2>
-    <p>The contact and consultation forms do not transmit what you type. After you submit, the page shows a confirmation and keeps the note on this device only. The phone numbers and email addresses published here are the public Cosasco contacts.</p>
+    <p>The contact and consultation forms do not transmit what you type. After you submit, the page shows a confirmation and keeps the note on this device only.</p>
     <h2>Questions</h2>
-    <p>The office is Office 7, Second Floor, Silverleaf Business Centre, 118 Duncan Street, Hatfield, Pretoria, 0083, Gauteng, South Africa. Phone <a href="tel:+27671159524">+27 67 115 9524</a>.</p>
+    <p>Office 7, Second Floor, Silverleaf Business Centre, 118 Duncan Street, Hatfield, Pretoria, 0083, Gauteng, South Africa.</p>
+    <p>Phone <a href="tel:+27120004521">+27 12 000 4521</a> · Mobile <a href="tel:+27820007314">+27 82 000 7314</a> · Email <a href="mailto:sales.rsa@cosasco.co.za">sales.rsa@cosasco.co.za</a>.</p>
   </div>
 </section>
-""", ("assets/hero-company.jpg", "Privacy Policy", "What this recreation keeps, and where it stays."))
-
-write("quote.html", "Online Quote - Cosasco", "quote", "", """
-<section class="page">
-  <div class="wrap">
-    <div id="quote-success" class="success" hidden>
-      <h3>Quote request noted.</h3>
-      <p>This demo does not send the list. Call <a href="tel:+27671159524">+27 67 115 9524</a> if you need the Pretoria office now.</p>
-    </div>
-    <div id="quote-body"></div>
-    <form id="quote-form" style="margin-top:28px;max-width:720px">
-      <h2>Send this list</h2>
-      <label class="field"><span>Name*</span><input required></label>
-      <label class="field" style="margin-top:12px"><span>Email*</span><input type="email" required></label>
-      <label class="field" style="margin-top:12px"><span>Company*</span><input required></label>
-      <label class="field" style="margin-top:12px"><span>Notes</span><textarea placeholder="Pressure, material, or site details"></textarea></label>
-      <div class="form-actions"><button class="btn solid" type="submit">Request quote</button></div>
-    </form>
-  </div>
-</section>
-""", ("assets/hero-home.jpg", "Online Quote", "Collect the devices you want priced."))
+""", ("assets/hero-company.jpg", "Privacy Policy", "What this site keeps, and where it stays."))
 
 write("partner.html", "Partner Payment - Cosasco", "partner", "", """
 <section class="page">
   <div class="wrap prose">
-    <p>Partner invoices are handled by the regional Cosasco office that holds the account. This page does not take card payments.</p>
-    <p>For payment questions, call the Pretoria office on <a href="tel:+27671159524">+27 67 115 9524</a>, or write through the contact form and include your account reference.</p>
-    <p>Accepted cards on the Cosasco account, when card payment is offered, are Visa, Mastercard, and American Express.</p>
+    <p>Partner invoices are handled by the Pretoria office. This page does not take card payments.</p>
+    <p>For payment questions, call <a href="tel:+27120004521">+27 12 000 4521</a> or <a href="tel:+27820007314">+27 82 000 7314</a>, email <a href="mailto:sales.rsa@cosasco.co.za">sales.rsa@cosasco.co.za</a>, or write through the contact form and include your account reference.</p>
+    <p>Accepted cards, when card payment is offered, are Visa, Mastercard, and American Express.</p>
     <p><a class="btn solid" href="contact.html?topic=partner-payment">Contact accounts</a></p>
   </div>
 </section>
 """, ("assets/hero-company.jpg", "Partner Payment", "Reach the office that manages your account."))
-
 write("software-offline.html", "Data Offline Software - Cosasco", "offline", "", """
 <section class="page">
   <div class="wrap prose">

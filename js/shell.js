@@ -2,7 +2,7 @@
   var r = document.body.getAttribute("data-root") || "";
   var page = document.body.getAttribute("data-page") || "";
   var industryPages = ["upstream", "midstream", "downstream", "gas", "pulp", "specialty"];
-  var companyPages = ["about", "leadership", "careers"];
+  var companyPages = ["about"];
   var resourcePages = ["library", "blog", "article", "faq", "offline", "key", "calc", "legacy", "partner"];
 
   function on(name) { return page === name ? " is-active" : ""; }
@@ -10,8 +10,6 @@
 
   document.write(
     '<div class="util"><div class="wrap util-inner">' +
-      '<a class="util-link" href="' + r + 'quote.html">Quote <span class="badge" id="quote-count">0</span></a>' +
-      '<a class="util-link" href="' + r + 'find-a-rep.html">Find a Rep</a>' +
       '<a class="util-link" href="' + r + 'contact.html">Contact</a>' +
     '</div></div>' +
     '<header class="site-header" id="site-header"><div class="wrap header-inner">' +
@@ -35,8 +33,7 @@
           '<button class="drop-toggle' + group(companyPages) + '" type="button">Company <i class="chev"></i></button>' +
           '<div class="dropdown-panel">' +
             '<a href="' + r + 'about.html">About Cosasco</a>' +
-            '<a href="' + r + 'leadership.html">Leadership</a>' +
-            '<a href="' + r + 'careers.html">Careers</a>' +
+            '<a href="' + r + 'contact.html">Contact</a>' +
           '</div></div>' +
         '<div class="dropdown">' +
           '<button class="drop-toggle' + group(resourcePages) + '" type="button">Resources <i class="chev"></i></button>' +

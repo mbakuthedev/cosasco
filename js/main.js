@@ -78,6 +78,8 @@
   });
 
   document.querySelectorAll("form.js-form").forEach(function (form) {
+    form.removeAttribute("action");
+    form.setAttribute("novalidate", "novalidate");
     var button = form.querySelector("button[type=submit]");
     function refresh() {
       var ok = true;
@@ -87,12 +89,21 @@
       if (button) button.disabled = !ok;
     }
     form.addEventListener("input", refresh);
+    form.addEventListener("change", refresh);
     refresh();
     form.addEventListener("submit", function (event) {
       event.preventDefault();
+      event.stopPropagation();
+      // Do not email or post — delivery is off for now.
       var success = form.parentElement.querySelector(".success");
       form.hidden = true;
-      if (success) success.hidden = false;
+      if (success) {
+        success.hidden = false;
+        success.innerHTML =
+          "<h3>Thank you for contacting Cosasco.</h3>" +
+          "<p>Your note was not emailed or sent anywhere. Form delivery is switched off for now. Call <a href=\"tel:+27120004521\">+27 12 000 4521</a> or <a href=\"tel:+27820007314\">+27 82 000 7314</a> if you need the Pretoria office.</p>";
+      }
+      return false;
     });
   });
 
